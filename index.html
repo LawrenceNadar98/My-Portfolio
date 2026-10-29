@@ -1,12 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
+
 <body>
-    
+    <!-- Navigation -->
+    <nav class="container">
+        <a href="#" class="logo">LN.</a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <!-- Hero -->
+    <section class="section">
+        <div class="container hero">
+            <img src="./assets/pexels-godiatima-4955393.jpg" alt="Lawrence's profile photo" class="profile-image">
+
+            <div class="hero-content">
+                <h1>Hey, I'm <span>Lawrence</span></h1>
+                <p>
+                    I'm a full-stack developer who enjoys building
+                    useful applications for the web.
+                </p>
+                <div class="social-links">
+
+                    <a href="https://github.com/YOUR_USERNAME" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://linkedin.com/in/YOUR_USERNAME" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="mailto:YOUR_EMAIL" aria-label="Email">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section" id="skills">
+        <div class="container">
+            <h2>My Tech Stack</h2>
+            <p>Technologies I use to build full-stack web applications. </p>
+
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-list">
+                        <span><i class="fa-brands fa-html5 fa-xl"></i> HTML</span>
+                        <span><i class="fa-brands fa-css3-alt fa-xl"></i> CSS</span>
+                        <span><i class="fa-brands fa-js fa-xl"></i> JavaScript</span>
+                        <span><i class="fa-brands fa-react fa-xl"></i> React</span>
+                        <span><i class="fa-solid fa-wind fa-xl"></i> Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-list">
+                        <span><i class="fa-brands fa-node-js fa-xl"></i> Node.js</span>
+                        <span><i class="fa-solid fa-server fa-xl"></i> Express.js</span>
+                        <span><i class="fa-solid fa-code fa-xl"></i> REST APIs</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Database</h3>
+                    <div class="skill-list">
+                        <span><i class="fa-solid fa-leaf fa-xl"></i> MongoDB</span>
+                        <span><i class="fa-solid fa-database fa-xl"></i> PostgreSQL</span>
+                        <span><i class="fa-solid fa-table fa-xl"></i> SQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 </body>
+
 </html>
